@@ -1,0 +1,23 @@
+/* CSS Document */
+    body {
+      background-color: lightcyan;
+     }
+    #content {
+      width: 600px;
+      margin: 20px;
+      text-align: center;
+     }
+    #txtDec {
+      width: 150px;
+      text-align: right;
+     }
+     #txtBin {
+      width: 400px;
+      text-align: center;
+     }
+     #txtCalc {
+      height: auto;
+     }
+     .left {
+      text-align: left;
+     }
