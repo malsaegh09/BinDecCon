@@ -1,0 +1,35 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title>Decimal / Binary Converter</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="BinDecConv.css" />
+        <script type="text/javascript" src="BinDecConv.js" ></script>
+    </head>
+    <body>
+          <form id="form" action="">
+        <div id="content">
+            <p><b>Enter Value to Convert:</b>
+            <input type="text" id="txtIn"/><br/></p>
+            <br/>
+            <p>
+                Direction:
+                <input type="radio" id="toB" name="tType"
+                       value="toBin" checked>To Binary
+                <input type="radio" id="toD" name="tType" value="toDec">To Decimal<br>
+                <br>
+            </p>
+            <input type="button" value="Convert" id="btnConvert" />
+            <br/>
+            <p class="left"><b>Calculations:</b><br/>
+            <textarea rows="12" cols="68" id="txtCalc" readonly></textarea></p>
+            <br/>
+            <p><b>The Value is:</b><br/>
+            <input type="text" id="txtOut" readonly/><br/></p>
+            <input type="button" value="Clear" id="btnClear" />
+        </div>
+          </form>
+    </body>
+</html>
+
+
